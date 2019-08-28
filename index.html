@@ -1,0 +1,30 @@
+<html>
+
+	<head>
+		<!-- important information the computer needs -->
+		<meta charset="utf-8">
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+		<title>Flex v. Block</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="images/Centering Images.css" />
+	</head>
+
+	<body >
+			<!-- all content that shows up on the web page -->
+			<div id="content">
+				<div class="b "></div>
+				<div class="b ">
+					<!--<img style="justify-content: center; align: center;" src="images/spongebob.png" />-->
+				</div>
+				<div class="b "></div>
+				<div class="b "></div>
+			</div>
+	</body>
+	
+	<script>
+		var content = document.getElementById("content");
+		for (var i = 0; i < 7; i++) {
+			content.innerHTML += content.innerHTML;
+		}
+	</script>
+</html>
