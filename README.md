@@ -1,2 +1,2 @@
 # Challenge-H
-Rainbows = Cool hehehehehehehehe lois
+Rainbow website to practice css and javascript
